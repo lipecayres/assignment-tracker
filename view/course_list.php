@@ -5,7 +5,7 @@
     <section id="list" class="list">
         <header class="list__row list__header">
             <h1>
-                Course List
+                Task List Manager
             </h1>
         </header>
 
@@ -29,7 +29,7 @@
 <?php } ?>
 
 <section id="add" class="add">
-    <h2>Add Course</h2>
+    <h2>Add Task List</h2>
     <form action="." method="post" id="add__form" class="add__form">
         <input type="hidden" name="action" value="add_course">
         <div class="add__inputs">
@@ -43,6 +43,6 @@
 </section>
 
 <br>
-<p><a href=".">View &amp; Add Assignments</a></p>
+<p><a href=".">View &amp; Add Tasks</a></p>
 
 <?php include('view/footer.php') ?>
