@@ -2,7 +2,7 @@
 
 <h2>Error</h2>
 
-<p>    
+<p>
     <?php echo $error; ?>
 </p>
 
